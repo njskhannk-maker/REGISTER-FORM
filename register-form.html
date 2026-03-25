@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            padding: 0px 500px;
+        }
+        h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100px;
+        color: rgba(37, 36, 36, 0.918);
+        text-align: center;
+        }
+        label {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+        }
+        input {
+            background-color: rgb(192, 188, 188);
+            font-size: xx-large;
+            width: 520px;
+            height: 60px;
+            border: none;
+        }
+        Textarea {
+            background-color: rgb(192, 188, 188);
+            width: 520px;
+            height: 200px;
+            font-size: 30px;
+            border: none;
+        }
+        button {
+            background-color: rgb(159, 233, 48);
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            width: 520px;
+            height: 60px;
+            border: none;
+        }
+        select {
+            background-color: rgb(192, 188, 188);
+            width: 520px;
+            height: 60px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>REGISTER</h1>
+    <form action="">
+        <label for="first-name">First Name</label><br>
+        <div>
+            <input type="text" name="first-name" id="first-name">
+        </div>
+        <br>
+        <label for="last-name">Last Name</label>
+        <div>
+            <input type="text" name="last-name" id="last-name">
+        </div>
+        <label for="petronymic">Petronymic</label><br>
+        <div>
+            <input type="text" name="petronymic" id="petronymic">
+        </div>
+        <label for="email">email</label><br>
+        <div>
+            <input type="email" name="email0" id="email">
+        </div>
+        <label for="password">Password</label>
+        <div>
+            <input type="password" name="password" id="password">
+        </div>
+        <label for="age">Age</label>
+        <div>
+            <input type="number" name="age" id="age">
+        </div>
+        <label for="auther-name">Auther</label>
+        <div>
+        <select name="auther-name" id="auther-name"><br>
+            <option value="auther name">Nusrat Jabeen</option>
+            <option value="auther name">Izmah Sheikh</option>
+            <option value="auther name">Hiba Khan</option>
+            <option value="auther name">Asma Khan</option>
+            <option value="auther name">sana Khan</option>
+            <option value="auther name">Hina Khan</option>             
+        </select><br>
+        </div>
+        <br>
+        <Textarea placeholder="A few words about you"></Textarea>
+        <br>
+        <button>Register</button>
+    </form>
+</body>
+</html
